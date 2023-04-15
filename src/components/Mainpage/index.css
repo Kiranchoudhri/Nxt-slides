@@ -1,0 +1,40 @@
+.pageWrapper {
+  padding: 20px;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  border-width: 0px;
+  background-color: #dbeafe;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.addIcon {
+  width: 16px;
+  margin-right: 10px;
+}
+.buttonText {
+  font-size: 16px;
+}
+
+.slidesList {
+  margin-top: 30px;
+  display: flex;
+}
+
+.allSlides {
+  padding: 30px;
+  width: 30%;
+  height: 80vh;
+  list-style-type: none;
+  overflow-y: scroll;
+  background-color: #f8fafc;
+}
+.mainSlideSection {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.singleSlide {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+.slideWrapper {
+  display: flex;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.slideTitle {
+  margin-bottom: 30px;
+  color: #0967d2;
+  font-size: 24px;
+}
+
+.activeSlide {
+  background-color: #dbeafe;
+}

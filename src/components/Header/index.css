@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  background-color: #dbeafe;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+
+.headerTitle {
+  color: #0f172a;
+  margin-left: 20px;
+  font-family: Bree Serif;
+  font-size: 30px;
+  font-weight: 500;
+}
